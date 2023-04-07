@@ -1,0 +1,32 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Modal component > renders correctly 1`] = `
+<div
+  className="modal"
+>
+  <button
+    className="close-btn"
+  >
+    <img
+      alt="Close Modal Btn"
+      src="/src/lib/assets/close.svg"
+    />
+  </button>
+  <div
+    className="img-wrapper"
+    style={
+      {
+        "display": "none",
+      }
+    }
+  >
+    <img />
+  </div>
+  <div
+    className="content-wrapper"
+  >
+    <h3 />
+    <p />
+  </div>
+</div>
+`;

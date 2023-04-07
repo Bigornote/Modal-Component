@@ -1,0 +1,77 @@
+{
+  "name": "component-modal-custom-ab",
+  "version": "1.0.0",
+  "description": "React Modal Component for HRnet - HealthWealth",
+  "license": "MIT",
+  "author": "Antoine Buard",
+  "repository": "https://github.com/Bigornote/Modal-Componant.git",
+  "keywords": [
+    "react",
+    "react-component",
+    "modal"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/component-modal-custom-ab.umd.js",
+  "module": "./dist/component-modal-custom-ab.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/component-modal-custom-ab.es.js",
+      "require": "./dist/component-modal-custom-ab.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^9.2.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@vitest/coverage-c8": "^0.29.8",
+    "c8": "^7.13.0",
+    "eslint": "^8.37.0",
+    "eslint-plugin-react": "^7.32.2",
+    "jsdom": "^21.1.1",
+    "react-test-renderer": "^18.2.0",
+    "vite": "^4.2.0",
+    "vitest": "^0.29.8"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true,
+      "es2020": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "parserOptions": {
+      "sourceType": "module"
+    }
+  }
+}

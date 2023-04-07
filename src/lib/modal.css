@@ -1,0 +1,25 @@
+.modal {
+  position: relative;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px;
+  background-color: #fff;
+  border: 3px solid #000;
+}
+.close-btn {
+  width: 35px;
+  position: absolute;
+  right: -17.5px;
+  top: -10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.img-wrapper {
+  width: 40%;
+}
+img {
+  width: 100%;
+}
